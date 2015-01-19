@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="6254" systemVersion="14B25" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Items" representedClassName="Items" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="photos_src" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photos_src_big" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="source_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="text" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="relationshipProfiles" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Profiles" inverseName="relationshipItems" inverseEntity="Profiles" syncable="YES"/>
+    </entity>
+    <entity name="Profiles" representedClassName="Profiles" syncable="YES">
+        <attribute name="first_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="last_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="photo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <relationship name="relationshipItems" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Items" inverseName="relationshipProfiles" inverseEntity="Items" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Items" positionX="-227" positionY="-18" width="128" height="148"/>
+        <element name="Profiles" positionX="-54" positionY="-18" width="128" height="118"/>
+    </elements>
+</model>

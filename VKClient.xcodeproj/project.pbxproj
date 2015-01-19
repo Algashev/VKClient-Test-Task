@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C68F93E96EEBC44F45856BD8 /* libPods-VKClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B01973B7A4FAC0713A8DDF /* libPods-VKClient.a */; };
+		FF013E8D1A67D7EE007BFD8E /* Profiles.m in Sources */ = {isa = PBXBuildFile; fileRef = FF013E8C1A67D7EE007BFD8E /* Profiles.m */; };
+		FF013E901A680465007BFD8E /* NewsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FF013E8F1A680465007BFD8E /* NewsTableViewCell.m */; };
+		FF5D682D1A6C5D7200879EFB /* DetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5D682C1A6C5D7200879EFB /* DetailController.m */; };
+		FF89E1831A66A7D2007B8F5D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89E1821A66A7D2007B8F5D /* main.m */; };
+		FF89E1861A66A7D2007B8F5D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89E1851A66A7D2007B8F5D /* AppDelegate.m */; };
+		FF89E1891A66A7D2007B8F5D /* VKClient.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF89E1871A66A7D2007B8F5D /* VKClient.xcdatamodeld */; };
+		FF89E18C1A66A7D2007B8F5D /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89E18B1A66A7D2007B8F5D /* LoginController.m */; };
+		FF89E18F1A66A7D2007B8F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF89E18D1A66A7D2007B8F5D /* Main.storyboard */; };
+		FF89E1911A66A7D3007B8F5D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF89E1901A66A7D3007B8F5D /* Images.xcassets */; };
+		FF89E1941A66A7D3007B8F5D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF89E1921A66A7D3007B8F5D /* LaunchScreen.xib */; };
+		FF89E1A01A66A7D3007B8F5D /* VKClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89E19F1A66A7D3007B8F5D /* VKClientTests.m */; };
+		FF89E1AD1A66B141007B8F5D /* VKAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89E1AC1A66B141007B8F5D /* VKAPIClient.m */; };
+		FF89E1B91A671E5C007B8F5D /* NewsController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF89E1B81A671E5C007B8F5D /* NewsController.m */; };
+		FFDEEE431A6C377C00480BEE /* Items.m in Sources */ = {isa = PBXBuildFile; fileRef = FFDEEE421A6C377C00480BEE /* Items.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF89E19A1A66A7D3007B8F5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF89E1751A66A7D1007B8F5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF89E17C1A66A7D2007B8F5D;
+			remoteInfo = VKClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F0FA77473D3F50763B104C8 /* Pods-VKClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VKClient/Pods-VKClient.debug.xcconfig"; sourceTree = "<group>"; };
+		91B01973B7A4FAC0713A8DDF /* libPods-VKClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VKClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9B2242312903DAB2E315838 /* Pods-VKClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VKClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-VKClient/Pods-VKClient.release.xcconfig"; sourceTree = "<group>"; };
+		FF013E8B1A67D7EE007BFD8E /* Profiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Profiles.h; sourceTree = "<group>"; };
+		FF013E8C1A67D7EE007BFD8E /* Profiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Profiles.m; sourceTree = "<group>"; };
+		FF013E8E1A680465007BFD8E /* NewsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsTableViewCell.h; sourceTree = "<group>"; };
+		FF013E8F1A680465007BFD8E /* NewsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsTableViewCell.m; sourceTree = "<group>"; };
+		FF5D682B1A6C5D7200879EFB /* DetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailController.h; sourceTree = "<group>"; };
+		FF5D682C1A6C5D7200879EFB /* DetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailController.m; sourceTree = "<group>"; };
+		FF89E17D1A66A7D2007B8F5D /* VKClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF89E1811A66A7D2007B8F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF89E1821A66A7D2007B8F5D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF89E1841A66A7D2007B8F5D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF89E1851A66A7D2007B8F5D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF89E1881A66A7D2007B8F5D /* VKClient.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VKClient.xcdatamodel; sourceTree = "<group>"; };
+		FF89E18A1A66A7D2007B8F5D /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		FF89E18B1A66A7D2007B8F5D /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		FF89E18E1A66A7D2007B8F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF89E1901A66A7D3007B8F5D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FF89E1931A66A7D3007B8F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FF89E1991A66A7D3007B8F5D /* VKClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF89E19E1A66A7D3007B8F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF89E19F1A66A7D3007B8F5D /* VKClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKClientTests.m; sourceTree = "<group>"; };
+		FF89E1AB1A66B141007B8F5D /* VKAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKAPIClient.h; sourceTree = "<group>"; };
+		FF89E1AC1A66B141007B8F5D /* VKAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKAPIClient.m; sourceTree = "<group>"; };
+		FF89E1B71A671E5C007B8F5D /* NewsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsController.h; sourceTree = "<group>"; };
+		FF89E1B81A671E5C007B8F5D /* NewsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsController.m; sourceTree = "<group>"; };
+		FFDEEE411A6C377C00480BEE /* Items.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Items.h; sourceTree = "<group>"; };
+		FFDEEE421A6C377C00480BEE /* Items.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Items.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF89E17A1A66A7D2007B8F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C68F93E96EEBC44F45856BD8 /* libPods-VKClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF89E1961A66A7D3007B8F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16365FB416ED51642EDA5D55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F0FA77473D3F50763B104C8 /* Pods-VKClient.debug.xcconfig */,
+				C9B2242312903DAB2E315838 /* Pods-VKClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F367F8194B2B407E5B539118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91B01973B7A4FAC0713A8DDF /* libPods-VKClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF89E1741A66A7D1007B8F5D = {
+			isa = PBXGroup;
+			children = (
+				FF89E17F1A66A7D2007B8F5D /* VKClient */,
+				FF89E19C1A66A7D3007B8F5D /* VKClientTests */,
+				FF89E17E1A66A7D2007B8F5D /* Products */,
+				16365FB416ED51642EDA5D55 /* Pods */,
+				F367F8194B2B407E5B539118 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FF89E17E1A66A7D2007B8F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF89E17D1A66A7D2007B8F5D /* VKClient.app */,
+				FF89E1991A66A7D3007B8F5D /* VKClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF89E17F1A66A7D2007B8F5D /* VKClient */ = {
+			isa = PBXGroup;
+			children = (
+				FF89E1841A66A7D2007B8F5D /* AppDelegate.h */,
+				FF89E1851A66A7D2007B8F5D /* AppDelegate.m */,
+				FF89E18A1A66A7D2007B8F5D /* LoginController.h */,
+				FF89E18B1A66A7D2007B8F5D /* LoginController.m */,
+				FF89E1B71A671E5C007B8F5D /* NewsController.h */,
+				FF89E1B81A671E5C007B8F5D /* NewsController.m */,
+				FF5D682B1A6C5D7200879EFB /* DetailController.h */,
+				FF5D682C1A6C5D7200879EFB /* DetailController.m */,
+				FF013E8E1A680465007BFD8E /* NewsTableViewCell.h */,
+				FF013E8F1A680465007BFD8E /* NewsTableViewCell.m */,
+				FF89E1AB1A66B141007B8F5D /* VKAPIClient.h */,
+				FF89E1AC1A66B141007B8F5D /* VKAPIClient.m */,
+				FF89E18D1A66A7D2007B8F5D /* Main.storyboard */,
+				FF89E1901A66A7D3007B8F5D /* Images.xcassets */,
+				FF89E1921A66A7D3007B8F5D /* LaunchScreen.xib */,
+				FF89E1871A66A7D2007B8F5D /* VKClient.xcdatamodeld */,
+				FFDEEE411A6C377C00480BEE /* Items.h */,
+				FFDEEE421A6C377C00480BEE /* Items.m */,
+				FF013E8B1A67D7EE007BFD8E /* Profiles.h */,
+				FF013E8C1A67D7EE007BFD8E /* Profiles.m */,
+				FF89E1801A66A7D2007B8F5D /* Supporting Files */,
+			);
+			path = VKClient;
+			sourceTree = "<group>";
+		};
+		FF89E1801A66A7D2007B8F5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF89E1811A66A7D2007B8F5D /* Info.plist */,
+				FF89E1821A66A7D2007B8F5D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF89E19C1A66A7D3007B8F5D /* VKClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF89E19F1A66A7D3007B8F5D /* VKClientTests.m */,
+				FF89E19D1A66A7D3007B8F5D /* Supporting Files */,
+			);
+			path = VKClientTests;
+			sourceTree = "<group>";
+		};
+		FF89E19D1A66A7D3007B8F5D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF89E19E1A66A7D3007B8F5D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF89E17C1A66A7D2007B8F5D /* VKClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF89E1A31A66A7D3007B8F5D /* Build configuration list for PBXNativeTarget "VKClient" */;
+			buildPhases = (
+				B29939C09B320ECD3C11D9AF /* Check Pods Manifest.lock */,
+				FF89E1791A66A7D2007B8F5D /* Sources */,
+				FF89E17A1A66A7D2007B8F5D /* Frameworks */,
+				FF89E17B1A66A7D2007B8F5D /* Resources */,
+				21ACBA949998F13916641F4C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKClient;
+			productName = VKClient;
+			productReference = FF89E17D1A66A7D2007B8F5D /* VKClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF89E1981A66A7D3007B8F5D /* VKClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF89E1A61A66A7D3007B8F5D /* Build configuration list for PBXNativeTarget "VKClientTests" */;
+			buildPhases = (
+				FF89E1951A66A7D3007B8F5D /* Sources */,
+				FF89E1961A66A7D3007B8F5D /* Frameworks */,
+				FF89E1971A66A7D3007B8F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF89E19B1A66A7D3007B8F5D /* PBXTargetDependency */,
+			);
+			name = VKClientTests;
+			productName = VKClientTests;
+			productReference = FF89E1991A66A7D3007B8F5D /* VKClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF89E1751A66A7D1007B8F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Александр Алгашев";
+				TargetAttributes = {
+					FF89E17C1A66A7D2007B8F5D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FF89E1981A66A7D3007B8F5D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FF89E17C1A66A7D2007B8F5D;
+					};
+				};
+			};
+			buildConfigurationList = FF89E1781A66A7D2007B8F5D /* Build configuration list for PBXProject "VKClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF89E1741A66A7D1007B8F5D;
+			productRefGroup = FF89E17E1A66A7D2007B8F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF89E17C1A66A7D2007B8F5D /* VKClient */,
+				FF89E1981A66A7D3007B8F5D /* VKClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF89E17B1A66A7D2007B8F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF89E18F1A66A7D2007B8F5D /* Main.storyboard in Resources */,
+				FF89E1941A66A7D3007B8F5D /* LaunchScreen.xib in Resources */,
+				FF89E1911A66A7D3007B8F5D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF89E1971A66A7D3007B8F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21ACBA949998F13916641F4C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VKClient/Pods-VKClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B29939C09B320ECD3C11D9AF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF89E1791A66A7D2007B8F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF89E1861A66A7D2007B8F5D /* AppDelegate.m in Sources */,
+				FF89E1891A66A7D2007B8F5D /* VKClient.xcdatamodeld in Sources */,
+				FF5D682D1A6C5D7200879EFB /* DetailController.m in Sources */,
+				FF89E18C1A66A7D2007B8F5D /* LoginController.m in Sources */,
+				FFDEEE431A6C377C00480BEE /* Items.m in Sources */,
+				FF013E8D1A67D7EE007BFD8E /* Profiles.m in Sources */,
+				FF013E901A680465007BFD8E /* NewsTableViewCell.m in Sources */,
+				FF89E1831A66A7D2007B8F5D /* main.m in Sources */,
+				FF89E1AD1A66B141007B8F5D /* VKAPIClient.m in Sources */,
+				FF89E1B91A671E5C007B8F5D /* NewsController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF89E1951A66A7D3007B8F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF89E1A01A66A7D3007B8F5D /* VKClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF89E19B1A66A7D3007B8F5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF89E17C1A66A7D2007B8F5D /* VKClient */;
+			targetProxy = FF89E19A1A66A7D3007B8F5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF89E18D1A66A7D2007B8F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF89E18E1A66A7D2007B8F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF89E1921A66A7D3007B8F5D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF89E1931A66A7D3007B8F5D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF89E1A11A66A7D3007B8F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF89E1A21A66A7D3007B8F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF89E1A41A66A7D3007B8F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F0FA77473D3F50763B104C8 /* Pods-VKClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF89E1A51A66A7D3007B8F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B2242312903DAB2E315838 /* Pods-VKClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKClient/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FF89E1A71A66A7D3007B8F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VKClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKClient.app/VKClient";
+			};
+			name = Debug;
+		};
+		FF89E1A81A66A7D3007B8F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VKClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKClient.app/VKClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF89E1781A66A7D2007B8F5D /* Build configuration list for PBXProject "VKClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF89E1A11A66A7D3007B8F5D /* Debug */,
+				FF89E1A21A66A7D3007B8F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF89E1A31A66A7D3007B8F5D /* Build configuration list for PBXNativeTarget "VKClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF89E1A41A66A7D3007B8F5D /* Debug */,
+				FF89E1A51A66A7D3007B8F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF89E1A61A66A7D3007B8F5D /* Build configuration list for PBXNativeTarget "VKClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF89E1A71A66A7D3007B8F5D /* Debug */,
+				FF89E1A81A66A7D3007B8F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FF89E1871A66A7D2007B8F5D /* VKClient.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FF89E1881A66A7D2007B8F5D /* VKClient.xcdatamodel */,
+			);
+			currentVersion = FF89E1881A66A7D2007B8F5D /* VKClient.xcdatamodel */;
+			path = VKClient.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FF89E1751A66A7D1007B8F5D /* Project object */;
+}
